@@ -83,7 +83,7 @@ form > div > button{
     color: rgb(255, 255, 255);
 }
 
-main > div > label{
+main > div > div{
     background-color: rgb(239, 239, 245);
     width: 63%;
     padding: 5%;
