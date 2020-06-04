@@ -5,20 +5,20 @@ This project shows the signup page of [Mint](https://accounts.intuit.com/signup.
 1. HTML5 
 1. CSS3
 # Live Demo
-[live demo link](https://descholar-ceo.github.io/youtube-player-page/) 
+[live demo link](http://descholar-ceo.github.io/signup-page) 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
 ## Prequisite 
 There is no special prequisite to run this project locally
 ## Setup
-1. Clone this repository with `git clone https://github.com/descholar-ceo/youtube-player-page.git` 
+1. Clone this repository with `git clone https://github.com/descholar-ceo/signup-page.git` 
 1. Go inside this repo locally by typing `cd youtube-player-page`
 # Usage
 Open index.html file within your browser
 ## Run Tests
 There is no need to run tests
 ## Deployment
-This project is deployed on github pages [live demo link](https://descholar-ceo.github.io/youtube-player-page/) 
+This project is deployed on github pages [live demo link](https://descholar-ceo.github.io/signup-page/) 
 # Authors
 ## Author 1
 * Github: [@descholar-ceo](https://github.com/descholar-ceo)
