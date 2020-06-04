@@ -1,18 +1,19 @@
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
     background-color: rgb(239, 239, 245);
 }
 
-nav{
+nav {
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-nav > div{
+nav > div {
     position: absolute;
     top: 0;
     right: 50px;
@@ -20,7 +21,7 @@ nav > div{
     flex-direction: row;
 }
 
-nav > div > button{
+nav > div > button {
     width: 100px;
     background-color: rgb(0, 0, 255);
     color: rgb(255,255,255);
@@ -30,27 +31,27 @@ nav > div > button{
     border-radius: 5px;
     margin-left: 12px;
 }
-nav > div > div{
+nav > div > div {
     font-size: 15px;
 }
-a{
+a {
     text-decoration: none;
     color: rgb(0, 0, 255);
 }
 
-main{
+main {
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-main > div{
+main > div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-form{
+form {
     background-color: rgb(255, 255, 255);
     border-top: 1px solid rgb(96, 96, 102);
     border-left: 1px solid rgb(96, 96, 102);
@@ -60,18 +61,18 @@ form{
     width: 63%;
 }
 
-form > div > label{
+form > div > label {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
 }
-input{
+input {
     height: 30px;
     border: 1px solid rgb(96, 96, 102);
     border-radius: 5px;
     outline: none;
 }
-form > div > button{
+form > div > button {
     width: 100%;
     margin-top: 10px;
     border-radius: 5px;
@@ -83,7 +84,7 @@ form > div > button{
     color: rgb(255, 255, 255);
 }
 
-main > div > div{
+main > div > div {
     background-color: rgb(239, 239, 245);
     width: 63%;
     padding: 5%;
@@ -92,22 +93,22 @@ main > div > div{
     border-right: 1px solid rgb(96, 96, 102);
 }
 
-.text-12{
+.text-12 {
     font-size: 12px;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-footer > p{
+footer > p {
     text-align: center;
     font-size: 12px;
     width: 60%;
 }
 
-main > button{
+main > button {
     position: fixed;
     bottom: 0;
     right: 50px;
