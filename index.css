@@ -1,4 +1,4 @@
-html, 
+html,
 body {
   height: 100%;
   width: 100%;
@@ -31,9 +31,11 @@ nav > div > button {
   border-radius: 5px;
   margin-left: 12px;
 }
+
 nav > div > div {
   font-size: 15px;
 }
+
 a {
   text-decoration: none;
   color: rgb(0, 0, 255);
@@ -46,11 +48,13 @@ main {
   align-items: center;
   width: 100%;
 }
+
 main > div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 form {
   background-color: rgb(255, 255, 255);
   border-top: 1px solid rgb(96, 96, 102);
@@ -66,12 +70,14 @@ form > div > label {
   flex-direction: column;
   margin-top: 25px;
 }
+
 input {
   height: 30px;
   border: 1px solid rgb(96, 96, 102);
   border-radius: 5px;
   outline: none;
 }
+
 form > div > button {
   width: 100%;
   margin-top: 10px;
@@ -102,6 +108,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
 footer > p {
   text-align: center;
   font-size: 12px;
