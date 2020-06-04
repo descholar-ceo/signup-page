@@ -52,3 +52,23 @@ form{
     text-align: center;
     width: 45%;
 }
+form > div > label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+input{
+    height: 30px;
+    border: 1px solid rgb(96, 96, 102);
+}
+form > div > button{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    height: 40px;
+    background-color: rgb(82, 82, 170);
+    border: none;
+    color: rgb(255, 255, 255);
+}
