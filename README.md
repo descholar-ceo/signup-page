@@ -12,7 +12,7 @@ To get a local copy up and running follow these simple example steps.
 There is no special prequisite to run this project locally
 ## Setup
 1. Clone this repository with `git clone https://github.com/descholar-ceo/signup-page.git` 
-1. Go inside this repo locally by typing `cd youtube-player-page`
+1. Go inside this repo locally by typing `cd signup-page`
 # Usage
 Open index.html file within your browser
 ## Run Tests
