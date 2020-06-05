@@ -47,6 +47,7 @@ main > div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 40%;
 }
 
 nav > div > div {
@@ -121,9 +122,6 @@ main > div > div {
   background-color:rgb(236,238,241);
   width: 63%;
   padding: 5%;
-  border-bottom: 1px solid rgb(169,179,188);
-  border-left: 1px solid rgb(169,179,188);
-  border-right: 1px solid rgb(169,179,188);
 }
 
 .text-12 {
@@ -141,3 +139,30 @@ footer > p {
   font-size: 12px;
   width: 60%;
 }
+.intuit-logo-pic{
+  width: 50%;
+  height: 50px;
+}
+main > div > div > div > ul > li > span > img{
+  width: 35px;
+  height: 35px;
+ }
+ main > div > div > div > ul > li{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-right: 2px;
+ }
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  font-size: 20px;
+  }
+  .intuit-logo-div{
+  width: 100%;
+  text-align: center;
+  }
