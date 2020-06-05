@@ -3,7 +3,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  background-color:rgb(236, 238, 241);
+  background-color: rgb(236, 238, 241);
 }
 
 nav {
@@ -50,6 +50,10 @@ main > div {
   width: 30%;
 }
 
+form > div {
+  padding: 5%;
+}
+
 nav > div > div {
   font-size: 15px;
 }
@@ -73,10 +77,6 @@ form {
   text-align: center;
   width: 100%;
   margin-bottom: 70px;
-}
-
-form > div {
-  padding: 5%;
 }
 
 form > div > div > label {
@@ -144,17 +144,19 @@ footer > p {
   width: 50%;
   height: 50px;
 }
+
 main > div > div > div > ul > li > span > img {
   width: 30px;
   height: 30px;
 }
+
 main > div > div > div > ul > li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-right: 1px;
- }
+}
 
 ul {
   list-style-type: none;
