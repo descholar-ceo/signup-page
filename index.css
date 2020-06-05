@@ -69,12 +69,11 @@ main {
 
 form {
   background-color: rgb(255, 255, 255);
-  border-top: 1px solid rgb(169, 179, 188);
-  border-left: 1px solid rgb(169, 179, 188);
-  border-right: 1px solid rgb(169, 179, 188);
+  border: 1px solid rgb(169, 179, 188);
   padding: 5%;
   text-align: center;
-  width: 63%;
+  width: 100%;
+  margin-bottom: 70px;
 }
 
 form > div > label {
@@ -165,4 +164,10 @@ ul{
   .intuit-logo-div {
   width: 100%;
   text-align: center;
+  }
+  .form-footer {
+  border-top: 1px solid rgb(169, 179, 188);
+  }
+  .form-group {
+  border: 1px solid rgb(169, 179, 188);
   }
