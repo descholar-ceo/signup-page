@@ -5,7 +5,7 @@ This project shows the signup page of [Mint](https://accounts.intuit.com/signup.
 1. HTML5 
 1. CSS3
 ## Live Demo
-[live demo link](http://descholar-ceo.github.io/signup-page) 
+[live demo link](https://peaceful-mcnulty-9e3703.netlify.app) 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 ## Prequisite 
