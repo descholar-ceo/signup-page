@@ -91,6 +91,14 @@ input {
 
 .phon-desc{
   font-size: small;
+  font-family: "AvenirNext";
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
 form > div > button {

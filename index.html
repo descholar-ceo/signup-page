@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+
     <title>Signup Page</title>
 </head>
 <body>
@@ -27,24 +32,18 @@
                 <h3>Create an Intuit account</h3>
                 <p>One account for everything Intuit, including Mint.</p>
                 <p><a href="#">Learn more</a></p>
-                <div>
-                    <label for="email">
-                        <span>Email address</span>
-                        <input id="email" type="email">
-                    </label>
+                <div class="input-group">
+                    <label for="email">Email address </label>
+                    <input id="email" type="email">
                 </div>
-                <div>
-                    <label for="phone">
-                        <span>Phone(recommended)</span>
-                        <input id="phone" type="text">
-                        <span class="phon-desc">Standard call, messaging or data rates may apply.</span>
-                    </label>
+                <div class="input-group">
+                    <label for="phone">Phone(recommended)</label>
+                    <input id="phone" type="tel">
                 </div>
-                <div>
-                    <label for="password">
-                        <span>Password</span>
+                <span class="phon-desc">Standard call, messaging or data rates may apply.</span>
+                <div class="input-group">
+                    <label for="password">Password</label>
                         <input id="password" type="password">
-                    </label>
                 </div>
                 <div>
                     <button type="button">Create account</button>
