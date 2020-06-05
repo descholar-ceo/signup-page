@@ -3,7 +3,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  background-color :rgb(236, 238, 241);
+  background-color:rgb(236, 238, 241);
 }
 
 nav {
@@ -94,7 +94,6 @@ input {
 
 .phon-desc {
   font-size: small;
-  font-family: "AvenirNext";
 }
 
 .input-group {
@@ -156,6 +155,7 @@ main > div > div > div > ul > li {
   flex-wrap: wrap;
   margin-right: 1px;
  }
+
 ul {
   list-style-type: none;
   display: flex;
@@ -163,11 +163,13 @@ ul {
   justify-content: space-between;
   flex: 1;
   font-size: 20px;
-  }
-  .intuit-logo-div {
+}
+
+.intuit-logo-div {
   width: 100%;
   text-align: center;
-  }
-  .form-footer {
+}
+
+.form-footer {
   background-color: rgb(236, 238, 241);
-  }
+}
