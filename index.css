@@ -47,7 +47,7 @@ main > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  width: 30%;
 }
 
 nav > div > div {
@@ -70,13 +70,16 @@ main {
 form {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(169, 179, 188);
-  padding: 5%;
   text-align: center;
   width: 100%;
   margin-bottom: 70px;
 }
 
-form > div > label {
+form > div{
+  padding: 5%;
+}
+
+form > div > div > label {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
@@ -101,7 +104,7 @@ input {
   text-align: left;
 }
 
-form > div > button {
+form > div > div > button {
   width: 100%;
   border-radius: 5px;
   margin-top: 25px;
@@ -119,7 +122,7 @@ form > div > button {
 
 main > div > div {
   background-color: rgb(236, 238, 241);
-  width: 63%;
+  width: 100%;
   padding: 5%;
 }
 
@@ -143,15 +146,15 @@ footer > p {
   height: 50px;
 }
 main > div > div > div > ul > li > span > img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 main > div > div > div > ul > li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-right: 2px;
+  margin-right: 1px;
  }
 ul{
   list-style-type: none;
@@ -166,8 +169,5 @@ ul{
   text-align: center;
   }
   .form-footer {
-  border-top: 1px solid rgb(169, 179, 188);
-  }
-  .form-group {
-  border: 1px solid rgb(169, 179, 188);
+  background-color: rgb(236, 238, 241);
   }
