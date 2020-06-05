@@ -75,7 +75,7 @@ form {
   margin-bottom: 70px;
 }
 
-form > div{
+form > div {
   padding: 5%;
 }
 
@@ -115,7 +115,7 @@ form > div > div > button {
   color: rgb(255, 255, 255);
 }
 
-.terms{
+.terms {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -156,7 +156,7 @@ main > div > div > div > ul > li {
   flex-wrap: wrap;
   margin-right: 1px;
  }
-ul{
+ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
