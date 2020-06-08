@@ -2,8 +2,10 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
   overflow-x: hidden;
   background-color: rgb(236, 238, 241);
+  font-family: sans-serif;
 }
 
 nav {
@@ -13,7 +15,7 @@ nav {
   width: 100%;
 }
 
-nav > div {
+.already-have-an-account {
   position: absolute;
   top: 0;
   right: 50px;
@@ -21,18 +23,7 @@ nav > div {
   flex-direction: row;
 }
 
-main > button {
-  position: fixed;
-  bottom: 0;
-  right: 50px;
-  background-color: rgb(107, 108, 114);
-  height: 40px;
-  border: none;
-  border-radius: 5px;
-  color: rgb(255, 255, 255);
-}
-
-nav > div > button {
+.nav-btn {
   width: 100px;
   background-color: rgb(0, 119, 197);
   color: rgb(255, 255, 255);
@@ -43,20 +34,23 @@ nav > div > button {
   margin-left: 12px;
 }
 
-main > div {
+.forgot-password {
+  font-size: 15px;
+}
+
+
+
+.form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 30%;
 }
 
-form > div {
+.input-container {
   padding: 5%;
 }
 
-nav > div > div {
-  font-size: 15px;
-}
 
 a {
   text-decoration: none;
@@ -71,6 +65,39 @@ main {
   width: 100%;
 }
 
+.icon-container {
+  background-color: rgb(236, 238, 241);
+  width: 100%;
+  padding: 5%;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.intuit-logo-div {
+  width: 100%;
+  text-align: center;
+}
+
+.intuit-logo-pic {
+  width: 50%;
+  height: 50px;
+}
+
+.small-icons {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 1px;
+}
+
 form {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(169, 179, 188);
@@ -79,7 +106,7 @@ form {
   margin-bottom: 70px;
 }
 
-form > div > div > label {
+.labels-inputs {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
@@ -103,7 +130,7 @@ input {
   text-align: left;
 }
 
-form > div > div > button {
+.create-account-btn {
   width: 100%;
   border-radius: 5px;
   margin-top: 25px;
@@ -119,46 +146,6 @@ form > div > div > button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main > div > div {
-  background-color: rgb(236, 238, 241);
-  width: 100%;
-  padding: 5%;
-}
-
-.text-12 {
-  font-size: 12px;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-footer > p {
-  text-align: center;
-  font-size: 12px;
-  width: 60%;
-}
-
-.intuit-logo-pic {
-  width: 50%;
-  height: 50px;
-}
-
-main > div > div > div > ul > li > span > img {
-  width: 30px;
-  height: 30px;
-}
-
-main > div > div > div > ul > li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-right: 1px;
-}
-
 ul {
   list-style-type: none;
   display: flex;
@@ -168,11 +155,29 @@ ul {
   font-size: 20px;
 }
 
-.intuit-logo-div {
-  width: 100%;
-  text-align: center;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-btn {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  background-color: rgb(107, 108, 114);
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
 }
 
 .form-footer {
   background-color: rgb(236, 238, 241);
+}
+
+.footer-paragraph {
+  text-align: center;
+  font-size: 12px;
+  width: 60%;
 }
