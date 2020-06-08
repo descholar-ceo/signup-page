@@ -1,0 +1,180 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: rgb(236, 238, 241);
+  font-family: sans-serif;
+}
+
+nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.already-have-an-account {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-btn {
+  width: 100px;
+  background-color: rgb(0, 119, 197);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+
+.forgot-password {
+  font-size: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.input-container {
+  padding: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+}
+
+main {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-container {
+  background-color: rgb(236, 238, 241);
+  width: 100%;
+  padding: 5%;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.intuit-logo-div {
+  width: 100%;
+  text-align: center;
+}
+
+.intuit-logo-pic {
+  width: 50%;
+  height: 50px;
+}
+
+.small-icons {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 1px;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(169, 179, 188);
+  text-align: center;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.labels-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+input {
+  height: 30px;
+  border: 1px solid rgb(169, 179, 188);
+  border-radius: 5px;
+  outline: none;
+}
+
+.phon-desc {
+  font-size: small;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.create-account-btn {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+  height: 40px;
+  background-color: rgb(0, 119, 197);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.terms {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-btn {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  background-color: rgb(107, 108, 114);
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.form-footer {
+  background-color: rgb(236, 238, 241);
+}
+
+.footer-paragraph {
+  text-align: center;
+  font-size: 12px;
+  width: 60%;
+}
