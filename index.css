@@ -38,8 +38,6 @@ nav {
   font-size: 15px;
 }
 
-
-
 .form-container {
   display: flex;
   flex-direction: column;
@@ -50,7 +48,6 @@ nav {
 .input-container {
   padding: 5%;
 }
-
 
 a {
   text-decoration: none;
