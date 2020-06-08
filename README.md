@@ -1,6 +1,8 @@
 # Signup page of [Mint](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Dc0ea480e-0303-4345-a06d-abf16835f39b%26adobe_mc%3DMCMID%253D32610213104031422670594384985186777554%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1591259045%26ivid%3Dc0ea480e-0303-4345-a06d-abf16835f39b)
 This project shows the signup page of [Mint](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Dc0ea480e-0303-4345-a06d-abf16835f39b%26adobe_mc%3DMCMID%253D32610213104031422670594384985186777554%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1591259045%26ivid%3Dc0ea480e-0303-4345-a06d-abf16835f39b)
 
+![](/img/signup-page-screenshot.png)
+
 ## Built with 
 1. HTML5 
 1. CSS3
